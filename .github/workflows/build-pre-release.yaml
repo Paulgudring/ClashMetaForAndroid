@@ -40,11 +40,13 @@ jobs:
         run: |
           touch signing.properties
           echo $SIGNING_STORE_PASSWORD > keystore-b64.txt
-          base64 -d keystore-b64.txt > $SIGNING_STORE_PASSWORD
+          TEMP_FILE=temp.txt
+          base64 -d keystore-b64.txt > $TEMP_FILE
+          SIGNING_STORE_PASSWORD=$(cat $TEMP_FILE)
           echo keystore.password="$SIGNING_STORE_PASSWORD" > signing.properties
           echo key.alias="$SIGNING_KEY_ALIAS" >> signing.properties
           echo key.password="$SIGNING_KEY_PASSWORD" >> signing.properties
-            
+                
           echo "cat signing.properties"
           cat signing.properties
 
