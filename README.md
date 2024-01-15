@@ -1,10 +1,10 @@
 ## Clash Meta for Android
 
-A Graphical user interface of [Clash.Meta](https://github.com/MetaCubeX/Clash.Meta) for Android
+A Graphical user interface of [Clash.Meta](https://github.com/MetaCubeX/mihomo) for Android
 
 ### Feature
 
-Feature of [Clash.Meta](https://github.com/MetaCubeX/Clash.Meta)
+Feature of [Clash.Meta](https://github.com/MetaCubeX/mihomo)
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
@@ -64,13 +64,13 @@ APP package name is `com.github.metacubex.clash.meta`
 
 #### Meta Kernel
 
-- CMFA uses the kernel from `android-real` branch under `MetaCubeX/Clash.Meta`, which is a merge of the main `Alpha` branch and `android-open`.
+- CMFA uses the kernel from `android-real` branch under `MetaCubeX/mihomo`, which is a merge of the main `Alpha` branch and `android-open`.
   - If you want to contribute to the kernel, make PRs to `Alpha` branch of the Meta kernel repository.
   - If you want to contribute Android-specific patches to the kernel, make PRs to  `android-open` branch of the Meta kernel repository.
 
 #### Maintainance
 
-- When `MetaCubeX/Clash.Meta` kernel is updated to a new version, the `Update Dependencies` actions in this repo will be triggered automatically.
+- When `MetaCubeX/mihomo` kernel is updated to a new version, the `Update Dependencies` actions in this repo will be triggered automatically.
   - It will pull the new version of the meta kernel, update all the golang dependencies, and create a PR without manual intervention.
   - If there is any compile error in PR, you need to fix it before merging. Alternatively, you may merge the PR directly.
 - Manually triggering `Build Pre-Release` actions will compile and publish a `PreRelease` version.

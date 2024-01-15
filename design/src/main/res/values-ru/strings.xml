@@ -209,7 +209,7 @@
     <string name="clash_meta_core">Ядро Clash Meta</string>
     <string name="clash_wiki_url" translatable="false">https://github.com/Dreamacro/clash/wiki</string>
     <string name="meta_github_url" translatable="false">https://github.com/MetaCubeX/ClashMetaForAndroid</string>
-    <string name="clash_meta_core_url" translatable="false">https://github.com/MetaCubeX/Clash.Meta</string>
+    <string name="clash_meta_core_url" translatable="false">https://github.com/MetaCubeX/mihomo</string>
 
     <string name="tips_properties"><![CDATA[Принимается только <strong>конфиг Clash</strong> (включая <strong>Прокси</strong>/<strong>Правила</strong>)]]></string>
     <string name="tips_help"><![CDATA[Clash Meta для Android — <strong>бесплатен</strong> и мы <strong>НЕ</strong> предоставляем по нему поддержку]]></string>
