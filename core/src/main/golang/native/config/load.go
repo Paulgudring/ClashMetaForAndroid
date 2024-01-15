@@ -9,10 +9,10 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"cfa/native/app"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Paulgudring/clash/log"
 
-	"github.com/Dreamacro/clash/config"
-	"github.com/Dreamacro/clash/hub/executor"
+	"github.com/Paulgudring/clash/config"
+	"github.com/Paulgudring/clash/hub/executor"
 )
 
 func logDns(cfg *config.RawConfig) {

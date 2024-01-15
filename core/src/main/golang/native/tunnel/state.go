@@ -1,7 +1,7 @@
 package tunnel
 
 import (
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/Paulgudring/clash/tunnel"
 )
 
 func QueryMode() string {

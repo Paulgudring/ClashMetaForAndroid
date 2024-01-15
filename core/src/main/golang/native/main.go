@@ -14,7 +14,7 @@ import (
 	"cfa/native/delegate"
 	"cfa/native/tunnel"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/Paulgudring/clash/log"
 )
 
 func main() {

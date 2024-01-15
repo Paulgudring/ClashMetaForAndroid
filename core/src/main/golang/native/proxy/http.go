@@ -3,8 +3,8 @@ package proxy
 import (
 	"sync"
 
-	"github.com/Dreamacro/clash/listener/http"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/Paulgudring/clash/listener/http"
+	"github.com/Paulgudring/clash/tunnel"
 )
 
 var listener *http.Listener

@@ -10,7 +10,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/Paulgudring/clash/log"
 )
 
 type message struct {

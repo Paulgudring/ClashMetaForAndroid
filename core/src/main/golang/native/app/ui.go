@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/dlclark/regexp2"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/Paulgudring/clash/log"
 )
 
 var uiSubtitlePattern *regexp2.Regexp
