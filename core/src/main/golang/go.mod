@@ -14,7 +14,7 @@ require (
 
 replace github.com/Paulgudring/clash => ../../foss/golang/clash
 
-replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20231001053806-1230641572b9
+replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20240111014253-f1818b6a82b2
 
 require (
 	github.com/3andne/restls-client-go v0.1.6 // indirect
