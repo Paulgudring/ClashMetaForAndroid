@@ -104,8 +104,6 @@ require (
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20240111014253-f1818b6a82b2
-
 replace cfa => ../../main/golang
 
 replace github.com/Paulgudring/clash => ./clash
