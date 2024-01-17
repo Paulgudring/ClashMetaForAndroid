@@ -14,7 +14,7 @@ import (
 
 	"cfa/native/app"
 
-	clashHttp "github.com/Dreamacro/clash/component/http"
+	clashHttp "github.com/MetaCubeX/mihomo/component/http"
 )
 
 type Status struct {

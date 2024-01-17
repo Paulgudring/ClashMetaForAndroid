@@ -1,6 +1,6 @@
 package tunnel
 
-import "github.com/Dreamacro/clash/adapter/provider"
+import "github.com/MetaCubeX/mihomo/adapter/provider"
 
 func Suspend(s bool) {
 	provider.Suspend(s)

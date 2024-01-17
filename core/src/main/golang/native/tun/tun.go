@@ -9,12 +9,12 @@ import (
 
 	"github.com/Kr328/tun2socket"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	"github.com/Dreamacro/clash/common/pool"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/socks5"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/MetaCubeX/mihomo/adapter/inbound"
+	"github.com/MetaCubeX/mihomo/common/pool"
+	C "github.com/MetaCubeX/mihomo/constant"
+	"github.com/MetaCubeX/mihomo/log"
+	"github.com/MetaCubeX/mihomo/transport/socks5"
+	"github.com/MetaCubeX/mihomo/tunnel"
 )
 
 var _, ipv4LoopBack, _ = net.ParseCIDR("127.0.0.0/8")

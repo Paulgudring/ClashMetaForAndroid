@@ -6,13 +6,13 @@ import (
 
 	"github.com/dlclark/regexp2"
 
-	"github.com/Dreamacro/clash/adapter"
+	"github.com/MetaCubeX/mihomo/adapter"
 
-	"github.com/Dreamacro/clash/adapter/outboundgroup"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/MetaCubeX/mihomo/adapter/outboundgroup"
+	C "github.com/MetaCubeX/mihomo/constant"
+	"github.com/MetaCubeX/mihomo/constant/provider"
+	"github.com/MetaCubeX/mihomo/log"
+	"github.com/MetaCubeX/mihomo/tunnel"
 )
 
 type SortMode int
@@ -96,8 +96,8 @@ func QueryProxyGroup(name string, sortMode SortMode, uiSubtitlePattern *regexp2.
 		return nil
 	}
 
- 	proxies := convertProxies(g.Proxies(), uiSubtitlePattern)
-// 	proxies := collectProviders(g.Providers(), uiSubtitlePattern)
+	proxies := convertProxies(g.Proxies(), uiSubtitlePattern)
+	// 	proxies := collectProviders(g.Providers(), uiSubtitlePattern)
 
 	switch sortMode {
 	case Title:

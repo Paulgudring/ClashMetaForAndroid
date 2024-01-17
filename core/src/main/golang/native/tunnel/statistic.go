@@ -1,7 +1,7 @@
 package tunnel
 
 import (
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	"github.com/MetaCubeX/mihomo/tunnel/statistic"
 )
 
 func ResetStatistic() {

@@ -9,10 +9,11 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"cfa/native/app"
-	"github.com/Dreamacro/clash/log"
 
-	"github.com/Dreamacro/clash/config"
-	"github.com/Dreamacro/clash/hub/executor"
+	"github.com/MetaCubeX/mihomo/log"
+
+	"github.com/MetaCubeX/mihomo/config"
+	"github.com/MetaCubeX/mihomo/hub/executor"
 )
 
 func logDns(cfg *config.RawConfig) {
