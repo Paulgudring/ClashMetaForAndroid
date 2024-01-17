@@ -14,7 +14,7 @@ import (
 
 	"cfa/native/app"
 
-	clashHttp "github.com/MetaCubeX/mihomo/component/http"
+	clashHttp "github.com/metacubex/mihomo/component/http"
 )
 
 type Status struct {

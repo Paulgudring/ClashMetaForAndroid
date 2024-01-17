@@ -1,7 +1,7 @@
 package tunnel
 
 import (
-	"github.com/MetaCubeX/mihomo/tunnel/statistic"
+	"github.com/metacubex/mihomo/tunnel/statistic"
 )
 
 func ResetStatistic() {

@@ -6,15 +6,15 @@ import (
 
 	"cfa/blob"
 
-	"github.com/MetaCubeX/mihomo/component/process"
-	"github.com/MetaCubeX/mihomo/log"
+	"github.com/metacubex/mihomo/component/process"
+	"github.com/metacubex/mihomo/log"
 
 	"cfa/native/app"
 	"cfa/native/platform"
 
-	"github.com/MetaCubeX/mihomo/component/dialer"
-	"github.com/MetaCubeX/mihomo/component/mmdb"
-	"github.com/MetaCubeX/mihomo/constant"
+	"github.com/metacubex/mihomo/component/dialer"
+	"github.com/metacubex/mihomo/component/mmdb"
+	"github.com/metacubex/mihomo/constant"
 )
 
 var errBlocked = errors.New("blocked")

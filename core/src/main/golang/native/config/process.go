@@ -10,11 +10,11 @@ import (
 
 	"cfa/native/common"
 
-	C "github.com/MetaCubeX/mihomo/constant"
-	"github.com/MetaCubeX/mihomo/log"
+	C "github.com/metacubex/mihomo/constant"
+	"github.com/metacubex/mihomo/log"
 
-	"github.com/MetaCubeX/mihomo/config"
-	"github.com/MetaCubeX/mihomo/dns"
+	"github.com/metacubex/mihomo/config"
+	"github.com/metacubex/mihomo/dns"
 )
 
 var processors = []processor{

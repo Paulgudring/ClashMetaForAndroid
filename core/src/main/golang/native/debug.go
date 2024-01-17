@@ -7,7 +7,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/MetaCubeX/mihomo/log"
+	"github.com/metacubex/mihomo/log"
 )
 
 func init() {

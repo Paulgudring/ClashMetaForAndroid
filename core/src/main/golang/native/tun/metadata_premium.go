@@ -7,7 +7,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	C "github.com/MetaCubeX/mihomo/constant"
+	C "github.com/metacubex/mihomo/constant"
 )
 
 func createMetadata(lAddr, rAddr *net.TCPAddr) *C.Metadata {

@@ -10,7 +10,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/MetaCubeX/mihomo/log"
+	"github.com/metacubex/mihomo/log"
 )
 
 type message struct {

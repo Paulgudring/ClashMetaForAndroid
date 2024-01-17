@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/MetaCubeX/mihomo/constant"
+	"github.com/metacubex/mihomo/constant"
 )
 
 type OverrideSlot int

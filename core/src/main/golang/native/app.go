@@ -9,7 +9,7 @@ import (
 
 	"cfa/native/app"
 
-	"github.com/MetaCubeX/mihomo/log"
+	"github.com/metacubex/mihomo/log"
 )
 
 func openRemoteContent(url string) (int, error) {
