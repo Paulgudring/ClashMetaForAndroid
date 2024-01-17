@@ -1,3 +1,4 @@
+//go:build debug
 // +build debug
 
 package main
@@ -6,7 +7,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/metacubex/mihomo/log"
 )
 
 func init() {

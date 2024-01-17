@@ -3,7 +3,7 @@ module cfa
 go 1.20
 
 require (
-	github.com/Dreamacro/clash v1.7.0
+	github.com/metacubex/mihomo v1.7.0
 	github.com/Kr328/tun2socket v0.0.0-20220414050025-d07c78d06d34
 	github.com/dlclark/regexp2 v1.10.0
 	github.com/miekg/dns v1.1.56
@@ -12,7 +12,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-replace github.com/Dreamacro/clash => ../../foss/golang/clash
+replace github.com/metacubex/mihomo => ../../foss/golang/clash
 
 replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20231001053806-1230641572b9
 

@@ -3,7 +3,7 @@ package app
 import (
 	"strings"
 
-	"github.com/Dreamacro/clash/dns"
+	"github.com/metacubex/mihomo/dns"
 )
 
 func NotifyDnsChanged(dnsList string) {
@@ -17,4 +17,3 @@ func NotifyDnsChanged(dnsList string) {
 	dns.UpdateSystemDNS(dL)
 	dns.FlushCacheWithDefaultResolver()
 }
-
