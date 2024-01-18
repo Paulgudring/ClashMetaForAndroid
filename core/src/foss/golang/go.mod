@@ -111,6 +111,5 @@ require (
 replace cfa => ../../main/golang
 
 replace github.com/metacubex/mihomo => ./clash
-replace github.com/metacubex/mihomo => ./clash
 
 replace cfa/blob => ../../../build/intermediates/golang_blob
