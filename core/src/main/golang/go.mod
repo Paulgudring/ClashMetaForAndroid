@@ -1,6 +1,6 @@
 module cfa
 
-go 1.20
+go 1.21
 
 require (
 	github.com/Kr328/tun2socket v0.0.0-20220414050025-d07c78d06d34
